@@ -65,6 +65,20 @@ class Cadasatro {
     public void setPlano(String plano) {
         Plano = plano;
     }
+    
+    //criacao do metodo "salvar"
+    public Cadasatro(){
 
+    }
+    public Cadasatro(String name, double cpf, double num_card, int idade, String user, String senha, String plano){
+        this.nome = name;
+        this.cpf = cpf;
+        this.num_cartao = num_card;
+        this.idade = idade;
+        this.usuario = user;
+        this.senha = senha;
+        this.Plano = plano;
+
+    }
     //ainda não comecei a agregacao com a classe Login
 }
