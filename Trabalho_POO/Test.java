@@ -1,3 +1,6 @@
+package Trabalho_POO;
+
+
 
 //Arquivo de teste para ver se o código roda.
 public class Test {
